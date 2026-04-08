@@ -13,3 +13,38 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Large datasets and models
+temp_*/
+final_*/
+ml_models/
+*.csv
+*.xlsx
+*.xls
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.mp4
+*.zip
+*.tar.gz
+*.rar
+*Dataset*/
+*dataset*/
+Teeth*/
+
+# Django specific
+db.sqlite3
+media/
+static/
+logs/
+*.log
